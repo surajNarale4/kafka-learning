@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "UserEvent",
+  "namespace": "com.learnKafka.event",
+  "fields": [
+    { "name": "id", "type": "long" },
+    { "name": "email", "type": "string" }
+  ]
+}

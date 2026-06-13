@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Configuration;
 public class KafkaConfig {
 
 
-
-    @Bean
-    public NewTopic createNewTopic(){
-        return new NewTopic("user-message",3,(short)1);
+   @Bean
+    public NewTopic createNewUserTopic(){
+        return new NewTopic("create-user",3,(short)1);
     }
+
 }
